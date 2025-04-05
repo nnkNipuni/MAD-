@@ -1,0 +1,198 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primary_color">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+
+
+        <TextView
+            android:id="@+id/noteTopic3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginEnd="8dp"
+            android:text="@string/back_button"
+            android:textColor="#594F4F"
+            android:textSize="34sp"
+            android:textStyle="bold"
+            android:clickable="true"
+            android:focusable="true" />
+
+
+        <TextView
+            android:id="@+id/noteTopic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:text="@string/noteTopic"
+            android:textColor="#594F4F"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tickMark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="160dp"
+            android:text="✓"
+            android:textColor="#594F4F"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="195dp"
+        android:layout_marginTop="60dp"
+        android:background="#FAFAE9"
+        android:elevation="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/scrollView2" />
+
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+
+            <Button
+                android:id="@+id/note3"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:layout_marginTop="150dp"
+                android:backgroundTint="#EDE7D7"
+                android:text="@string/note3"
+                android:textAlignment="textStart"
+                android:textAllCaps="false"
+                android:textColor="#7C7575"
+                android:textSize="16sp" />
+
+
+            <Button
+                android:id="@+id/note4"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:backgroundTint="#EDE7D7"
+                android:text="@string/note4"
+                android:textAlignment="textStart"
+                android:textAllCaps="false"
+                android:textColor="#7C7575"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/note5"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:backgroundTint="#EDE7D7"
+                android:text="@string/note5"
+                android:textAlignment="textStart"
+                android:textAllCaps="false"
+                android:textColor="#7C7575"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/note6"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:backgroundTint="#EDE7D7"
+                android:text="@string/note6"
+                android:textAlignment="textStart"
+                android:textAllCaps="false"
+                android:textColor="#7C7575"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/note7"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:backgroundTint="#EDE7D7"
+                android:text="@string/note7"
+                android:textAlignment="textStart"
+                android:textAllCaps="false"
+                android:textColor="#7C7575"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/note8"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:backgroundTint="#EDE7D7"
+                android:text="@string/note8"
+                android:textAlignment="textStart"
+                android:textAllCaps="false"
+                android:textColor="#7C7575"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/note9"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:backgroundTint="#EDE7D7"
+                android:text="@string/note9"
+                android:textAlignment="textStart"
+                android:textAllCaps="false"
+                android:textColor="#7C7575"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/note10"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:backgroundTint="#EDE7D7"
+                android:text="@string/note10"
+                android:textAlignment="textStart"
+                android:textAllCaps="false"
+                android:textColor="#7C7575"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/note11"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:backgroundTint="#EDE7D7"
+                android:text="@string/note11"
+                android:textAlignment="textStart"
+                android:textAllCaps="false"
+                android:textColor="#7C7575"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/note12"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:backgroundTint="#EDE7D7"
+                android:text="@string/note12"
+                android:textAlignment="textStart"
+                android:textAllCaps="false"
+                android:textColor="#7C7575"
+                android:textSize="16sp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

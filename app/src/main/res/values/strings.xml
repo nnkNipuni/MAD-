@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">LabExam02</string>
+
+    <string name="home_getstarted">Get Started</string>
+
+    <string name="calendar">📆\u00A0\u00A0Calendar</string>
+    <string name="settings">⚙️\u00A0\u00A0Settings</string>
+    <string name="log">🗂️\u00A0\u00A0Log</string>
+    <string name="notes">📗\u00A0Add Notes</string>
+    <string name="day21_note">🟡 Mood swings all over the place. One minute\n      happy, the next annoyed.Feeling super\n
+                                 low on energy today. Craving sweets and\n      need extra rest🥺😢\n\n 🔵 Moods: Sad,Miserable</string>
+
+    <string name="back_button">&#8592;</string>
+    <string name="march21">March 21,2025</string>
+    <string name = "march25">Mar 2025</string>
+    <string name="January">January</string>
+    <string name="Feb">February</string>
+    <string name="Mar">March</string>
+    <string name="April">April</string>
+    <string name="May">May</string>
+
+    <string name="noteTopic">Add Note</string>
+    <string name="note1">🔴     Period Starts Today</string>
+    <string name="note2">🩸     Flow</string>
+    <string name="note3">🔴     Period Ends Today</string>
+    <string name="note4">📕     Note</string>
+    <string name="note5">💊     Medicine</string>
+    <string name="note6">♥️     Intercourse</string>
+    <string name="note7">❗️     Symptoms</string>
+    <string name="note8">🫥     Moods</string>
+    <string name="note9">📄️     Ovulation test</string>
+    <string name="note10">⚖️    Weight</string>
+    <string name="note11">🌡️️    Temperature</string>
+    <string name="note12">🥛️    Drink Water</string>
+    <string name="today">&lt;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Today&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&gt;</string>
+
+    <string name="no1">1</string>
+    <string name="no2">2</string>
+    <string name="no3">3</string>
+    <string name="no4">4</string>
+    <string name="no5">5</string>
+    <string name="no6">6</string>
+    <string name="no7">7</string>
+    <string name="no8">8</string>
+    <string name="no9">9</string>
+    <string name="no10">10</string>
+    <string name="no11">11</string>
+    <string name="no12">12</string>
+    <string name="no13">13</string>
+    <string name="no14">14</string>
+    <string name="no15">15</string>
+    <string name="no16">16</string>
+    <string name="no17">17</string>
+    <string name="no18">18</string>
+    <string name="no19">19</string>
+    <string name="no20">20</string>
+    <string name="no21">21</string>
+    <string name="no22">22</string>
+    <string name="no23">23</string>
+    <string name="no24">24</string>
+    <string name="no25">25</string>
+    <string name="no26">26</string>
+    <string name="no27">27</string>
+    <string name="no28">28</string>
+    <string name="no29">29</string>
+    <string name="no30">30</string>
+    <string name="no31">31</string>
+
+</resources>

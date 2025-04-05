@@ -1,0 +1,501 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E6CACA"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+
+    <TextView
+        android:id="@+id/textViewArrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:text="&#8592;"
+        android:textAlignment="textStart"
+        android:textSize="34sp" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="42dp">
+
+        <!-- Calendar Header -->
+
+        <TextView
+            android:id="@+id/calendarHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Mar 2025"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="&lt;"
+            android:textSize="34sp"
+            app:layout_constraintBottom_toBottomOf="@+id/calendarHeader"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.276"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.666" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="&gt;"
+            android:textSize="34sp"
+            app:layout_constraintBottom_toBottomOf="@+id/calendarHeader"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.723"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.666" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <!-- Day Labels -->
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="1dp"
+        android:columnCount="7"
+        android:rowCount="1">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:gravity="center"
+            android:text="Sun" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:gravity="center"
+            android:text="Mon" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:gravity="center"
+            android:text="Tue" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:gravity="center"
+            android:text="Wed" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:gravity="center"
+            android:text="Thu" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:gravity="center"
+            android:text="Fri" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:gravity="center"
+            android:text="Sat" />
+    </GridLayout>
+
+    <!-- Calendar Grid -->
+    <GridLayout
+        android:id="@+id/calendarGrid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:columnCount="7"
+        android:rowCount="6">
+
+        <Button
+            android:id="@+id/day0"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:background="@color/calendar_pink"
+            android:contentDescription="Empty Day"
+            android:padding="8dp"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/day0"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:background="@color/calendar_pink"
+            android:contentDescription="Empty Day"
+            android:padding="8dp"
+            android:textColor="#000000"
+            tools:ignore="DuplicateIds" />
+
+        <Button
+            android:id="@+id/day0"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:background="@color/calendar_pink"
+            android:contentDescription="Empty Day"
+            android:padding="8dp"
+            android:textColor="#000000"
+            tools:ignore="DuplicateIds" />
+
+        <Button
+            android:id="@+id/day1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:background="@color/calendar_pink"
+            android:padding="8dp"
+            android:text="1"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/day2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:background="@color/calendar_pink"
+            android:padding="8dp"
+            android:text="2"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/day3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:background="@color/calendar_pink"
+            android:padding="8dp"
+            android:text="3"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/day4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:background="@color/calendar_pink"
+            android:padding="8dp"
+            android:text="4"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/day5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:background="@color/calendar_pink"
+            android:padding="8dp"
+            android:text="5"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/day6"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:background="@color/calendar_pink"
+            android:padding="8dp"
+            android:text="6"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/day7"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:background="@color/calendar_pink"
+            android:padding="8dp"
+            android:text="7"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/day8"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:background="@color/calendar_pink"
+            android:padding="8dp"
+            android:text="8"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/day9"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:background="@color/calendar_pink"
+            android:padding="8dp"
+            android:text="9"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/day10"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:background="@color/calendar_pink"
+            android:padding="8dp"
+            android:text="10"
+            android:textColor="#000000"
+            android:textColorLink="#000000" />
+
+        <Button
+            android:id="@+id/day11"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:background="@color/calendar_pink"
+            android:padding="8dp"
+            android:text="11"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/day12"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:background="@color/calendar_pink"
+            android:padding="8dp"
+            android:text="12"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/day13"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:background="@color/calendar_pink"
+            android:padding="8dp"
+            android:text="13"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/day14"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:background="@color/calendar_pink"
+            android:padding="8dp"
+            android:text="14"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/day15"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:background="@color/calendar_pink"
+            android:padding="8dp"
+            android:text="15"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/day16"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:background="@color/calendar_pink"
+            android:padding="8dp"
+            android:text="16"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/day17"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:background="@color/calendar_pink"
+            android:padding="8dp"
+            android:text="17"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/day18"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:background="@color/calendar_pink"
+            android:padding="8dp"
+            android:text="18"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/day19"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:background="@color/calendar_pink"
+            android:padding="8dp"
+            android:text="19"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/day20"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:background="@color/calendar_pink"
+            android:padding="8dp"
+            android:text="20"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/day21"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:background="@color/save"
+            android:padding="8dp"
+            android:text="21"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/day22"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:background="@color/save"
+            android:padding="8dp"
+            android:text="22"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/day23"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:background="@color/save"
+            android:padding="8dp"
+            android:text="23"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/day24"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:background="@color/save"
+            android:padding="8dp"
+            android:text="24"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/day25"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:background="@color/calendar_pink"
+            android:padding="8dp"
+            android:text="25"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/day26"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:background="@color/calendar_pink"
+            android:padding="8dp"
+            android:text="26"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/day27"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:background="@color/calendar_pink"
+            android:padding="8dp"
+            android:text="27"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/day28"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:background="@color/calendar_pink"
+            android:padding="8dp"
+            android:text="28"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/day29"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:background="@color/calendar_pink"
+            android:padding="8dp"
+            android:text="29"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/day30"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:background="@color/calendar_pink"
+            android:padding="8dp"
+            android:text="30"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/day31"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:background="@color/calendar_pink"
+            android:padding="8dp"
+            android:text="31"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/dayblank"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:background="@color/calendar_pink"
+            android:padding="8dp"
+           />
+
+    </GridLayout>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="March,2025" />
+
+
+</LinearLayout>

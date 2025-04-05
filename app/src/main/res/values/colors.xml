@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="calendar_pink">#FFC0CB</color>
+    <color name ="save">#DC5784</color>
+    <color name = "primary_color">#E6CACA</color>
+    <color name = "day21_notes">#E9D7A3</color>
+    <color name = "day21_notes_color">#4D4646</color>
+    <color name = "note_add_buttons">#EDE7D7</color>
+</resources>
+
+

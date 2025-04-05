@@ -1,0 +1,202 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primary_color">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:id="@+id/noteTopic3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginEnd="8dp"
+                    android:text="@string/back_button"
+                    android:textColor="#594F4F"
+                    android:textSize="34sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/noteTopic"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="7dp"
+                    android:text="@string/noteTopic"
+                    android:textColor="#594F4F"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginTop="20dp"
+                android:backgroundTint="#DE3872" />
+
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:backgroundTint="@color/calendar_pink"
+                android:text="@string/today"
+                android:textAllCaps="false"
+                android:textSize="20sp" />
+
+            <!-- Note buttons -->
+            <Button
+                android:id="@+id/note1"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:backgroundTint="#EDE7D7"
+                android:text="@string/note1"
+                android:textAlignment="textStart"
+                android:textAllCaps="false"
+                android:textColor="#7C7575"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/note2"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:backgroundTint="#EDE7D7"
+                android:text="@string/note2"
+                android:textAlignment="textStart"
+                android:textAllCaps="false"
+                android:textColor="#7C7575"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/note3"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:backgroundTint="#EDE7D7"
+                android:text="@string/note3"
+                android:textAlignment="textStart"
+                android:textAllCaps="false"
+                android:textColor="#7C7575"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/note4"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:backgroundTint="#EDE7D7"
+                android:text="@string/note4"
+                android:textAlignment="textStart"
+                android:textAllCaps="false"
+                android:textColor="#7C7575"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/note5"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:backgroundTint="#EDE7D7"
+                android:text="@string/note5"
+                android:textAlignment="textStart"
+                android:textAllCaps="false"
+                android:textColor="#7C7575"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/note6"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:backgroundTint="#EDE7D7"
+                android:text="@string/note6"
+                android:textAlignment="textStart"
+                android:textAllCaps="false"
+                android:textColor="#7C7575"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/note7"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:backgroundTint="#EDE7D7"
+                android:text="@string/note7"
+                android:textAlignment="textStart"
+                android:textAllCaps="false"
+                android:textColor="#7C7575"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/note8"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:backgroundTint="#EDE7D7"
+                android:text="@string/note8"
+                android:textAlignment="textStart"
+                android:textAllCaps="false"
+                android:textColor="#7C7575"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/note9"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:backgroundTint="#EDE7D7"
+                android:text="@string/note9"
+                android:textAlignment="textStart"
+                android:textAllCaps="false"
+                android:textColor="#7C7575"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/note10"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:backgroundTint="#EDE7D7"
+                android:text="@string/note10"
+                android:textAlignment="textStart"
+                android:textAllCaps="false"
+                android:textColor="#7C7575"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/note11"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:backgroundTint="@color/note_add_buttons"
+                android:text="@string/note11"
+                android:textAlignment="textStart"
+                android:textAllCaps="false"
+                android:textColor="#7C7575"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/note12"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:backgroundTint="@color/note_add_buttons"
+                android:text="@string/note12"
+                android:textAlignment="textStart"
+                android:textAllCaps="false"
+                android:textColor="#7C7575"
+                android:textSize="16sp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

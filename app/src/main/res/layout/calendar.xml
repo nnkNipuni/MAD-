@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="@color/primary_color"
+    android:background="@color/primary_color">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:layout_width="275dp"
+            android:layout_height="50dp"
+            android:layout_gravity="start"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:id="@+id/noteTopic3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="-5dp"
+                android:layout_marginEnd="3dp"
+                android:text="@string/back_button"
+                android:textColor="#594F4F"
+                android:textSize="34sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Period Log"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <!-- January Calendar -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="January"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="10dp"/>
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="7"
+            android:rowCount="6">
+
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="Sun" android:layout_columnWeight="1"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="Mon" android:layout_columnWeight="1"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="Tue" android:layout_columnWeight="1"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="Wed" android:layout_columnWeight="1"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="Thu" android:layout_columnWeight="1"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="Fri" android:layout_columnWeight="1"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="Sat" android:layout_columnWeight="1"/>
+
+
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="1" android:layout_columnWeight="1"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="2" android:layout_columnWeight="1"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="3" android:layout_columnWeight="1"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="4" android:layout_columnWeight="1"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="5" android:layout_columnWeight="1"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="6" android:layout_columnWeight="1"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="7" android:layout_columnWeight="1"/>
+
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="8" android:layout_columnWeight="1"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="9" android:layout_columnWeight="1"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="10" android:layout_columnWeight="1"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="11" android:layout_columnWeight="1"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="12" android:layout_columnWeight="1"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="13" android:layout_columnWeight="1"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="14" android:layout_columnWeight="1"/>
+
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="15" android:layout_columnWeight="1"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="16" android:layout_columnWeight="1"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="17" android:layout_columnWeight="1"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="18" android:layout_columnWeight="1"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="19" android:layout_columnWeight="1"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="20" android:layout_columnWeight="1" android:background="@color/calendar_pink"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="21" android:layout_columnWeight="1" android:background="@color/calendar_pink"/>
+
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="22" android:layout_columnWeight="1" android:background="@color/calendar_pink"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="23" android:layout_columnWeight="1" android:background="@color/calendar_pink"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="24" android:layout_columnWeight="1" android:background="@color/calendar_pink"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="25" android:layout_columnWeight="1"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="26" android:layout_columnWeight="1"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="27" android:layout_columnWeight="1"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="28" android:layout_columnWeight="1"/>
+
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="29" android:layout_columnWeight="1"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="30" android:layout_columnWeight="1"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="31" android:layout_columnWeight="1"/>
+        </GridLayout>
+
+
+        <!-- Feb Calendar -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="February"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="10dp"/>
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="7"
+            android:rowCount="6">
+
+            <!-- Repeat similar to February -->
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="Sun" android:layout_columnWeight="1"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="Mon" android:layout_columnWeight="1"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="Tue" android:layout_columnWeight="1"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="Wed" android:layout_columnWeight="1"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="Thu" android:layout_columnWeight="1"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="Fri" android:layout_columnWeight="1"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="Sat" android:layout_columnWeight="1"/>
+
+
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="1" android:layout_columnWeight="1"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="2" android:layout_columnWeight="1"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="3" android:layout_columnWeight="1"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="4" android:layout_columnWeight="1"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="5" android:layout_columnWeight="1"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="6" android:layout_columnWeight="1"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="7" android:layout_columnWeight="1"/>
+
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="8" android:layout_columnWeight="1"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="9" android:layout_columnWeight="1"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="10" android:layout_columnWeight="1"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="11" android:layout_columnWeight="1"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="12" android:layout_columnWeight="1"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="13" android:layout_columnWeight="1"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="14" android:layout_columnWeight="1"/>
+
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="15" android:layout_columnWeight="1"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="16" android:layout_columnWeight="1"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="17" android:layout_columnWeight="1"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="18" android:layout_columnWeight="1"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="19" android:layout_columnWeight="1"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="20" android:layout_columnWeight="1" android:background="@color/calendar_pink"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="21" android:layout_columnWeight="1" android:background="@color/calendar_pink"/>
+
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="22" android:layout_columnWeight="1" android:background="@color/calendar_pink"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="23" android:layout_columnWeight="1" android:background="@color/calendar_pink"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="24" android:layout_columnWeight="1" android:background="@color/calendar_pink"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="25" android:layout_columnWeight="1"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="26" android:layout_columnWeight="1"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="27" android:layout_columnWeight="1"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="28" android:layout_columnWeight="1"/>
+
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="29" android:layout_columnWeight="1"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="30" android:layout_columnWeight="1"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="31" android:layout_columnWeight="1"/>
+        </GridLayout>
+
+        <!-- March Calendar -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="March"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="10dp"/>
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="7"
+            android:rowCount="6">
+
+            <!-- Repeat similar to February -->
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="Sun" android:layout_columnWeight="1"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="Mon" android:layout_columnWeight="1"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="Tue" android:layout_columnWeight="1"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="Wed" android:layout_columnWeight="1"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="Thu" android:layout_columnWeight="1"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="Fri" android:layout_columnWeight="1"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="Sat" android:layout_columnWeight="1"/>
+
+            <!-- Days in March -->
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="1" android:layout_columnWeight="1"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="2" android:layout_columnWeight="1"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="3" android:layout_columnWeight="1"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="4" android:layout_columnWeight="1"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="5" android:layout_columnWeight="1"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="6" android:layout_columnWeight="1"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="7" android:layout_columnWeight="1"/>
+
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="8" android:layout_columnWeight="1"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="9" android:layout_columnWeight="1"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="10" android:layout_columnWeight="1"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="11" android:layout_columnWeight="1"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="12" android:layout_columnWeight="1"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="13" android:layout_columnWeight="1"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="14" android:layout_columnWeight="1"/>
+
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="15" android:layout_columnWeight="1"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="16" android:layout_columnWeight="1"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="17" android:layout_columnWeight="1"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="18" android:layout_columnWeight="1"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="19" android:layout_columnWeight="1"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="20" android:layout_columnWeight="1" android:background="@color/calendar_pink"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="21" android:layout_columnWeight="1" android:background="@color/calendar_pink"/>
+
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="22" android:layout_columnWeight="1" android:background="@color/calendar_pink"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="23" android:layout_columnWeight="1" android:background="@color/calendar_pink"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="24" android:layout_columnWeight="1" android:background="@color/calendar_pink"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="25" android:layout_columnWeight="1"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="26" android:layout_columnWeight="1"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="27" android:layout_columnWeight="1"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="28" android:layout_columnWeight="1"/>
+
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="29" android:layout_columnWeight="1"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="30" android:layout_columnWeight="1"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="31" android:layout_columnWeight="1"/>
+        </GridLayout>
+
+        <!-- April Calendar -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="April"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="10dp"/>
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="7"
+            android:rowCount="6">
+            <!-- Days of the week -->
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="Sun" android:layout_columnWeight="1"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="Mon" android:layout_columnWeight="1"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="Tue" android:layout_columnWeight="1"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="Wed" android:layout_columnWeight="1"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="Thu" android:layout_columnWeight="1"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="Fri" android:layout_columnWeight="1"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="Sat" android:layout_columnWeight="1"/>
+            <!-- Days in April -->
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="1" android:layout_columnWeight="1"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="2" android:layout_columnWeight="1"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="3" android:layout_columnWeight="1"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="4" android:layout_columnWeight="1"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="5" android:layout_columnWeight="1"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="6" android:layout_columnWeight="1"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="7" android:layout_columnWeight="1"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="8" android:layout_columnWeight="1"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="9" android:layout_columnWeight="1"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="10" android:layout_columnWeight="1"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="11" android:layout_columnWeight="1"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="12" android:layout_columnWeight="1"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="13" android:layout_columnWeight="1"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="14" android:layout_columnWeight="1"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="15" android:layout_columnWeight="1"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="16" android:layout_columnWeight="1"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="17" android:layout_columnWeight="1"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="18" android:layout_columnWeight="1"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="19" android:layout_columnWeight="1"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="20" android:layout_columnWeight="1" android:background="@color/calendar_pink"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="21" android:layout_columnWeight="1" android:background="@color/calendar_pink"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="22" android:layout_columnWeight="1" android:background="@color/calendar_pink"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="23" android:layout_columnWeight="1" android:background="@color/calendar_pink"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="24" android:layout_columnWeight="1" android:background="@color/calendar_pink"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:text="25" />
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="26" android:layout_columnWeight="1"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="27" android:layout_columnWeight="1"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="28" android:layout_columnWeight="1"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="29" android:layout_columnWeight="1"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="30" android:layout_columnWeight="1"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="31" android:layout_columnWeight="1"/>
+        </GridLayout>
+
+        <!-- May Calendar -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="May"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="10dp"/>
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="7"
+            android:rowCount="6">
+            <!-- Days of the week -->
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="Sun" android:layout_columnWeight="1"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="Mon" android:layout_columnWeight="1"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="Tue" android:layout_columnWeight="1"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="Wed" android:layout_columnWeight="1"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="Thu" android:layout_columnWeight="1"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="Fri" android:layout_columnWeight="1"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="Sat" android:layout_columnWeight="1"/>
+            <!-- Days in April -->
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="1" android:layout_columnWeight="1"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="2" android:layout_columnWeight="1"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="3" android:layout_columnWeight="1"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="4" android:layout_columnWeight="1"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="5" android:layout_columnWeight="1"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="6" android:layout_columnWeight="1"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="7" android:layout_columnWeight="1"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="8" android:layout_columnWeight="1"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="9" android:layout_columnWeight="1"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="10" android:layout_columnWeight="1"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="11" android:layout_columnWeight="1"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="12" android:layout_columnWeight="1"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="13" android:layout_columnWeight="1"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="14" android:layout_columnWeight="1"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="15" android:layout_columnWeight="1"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="16" android:layout_columnWeight="1"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="17" android:layout_columnWeight="1"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="18" android:layout_columnWeight="1"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="19" android:layout_columnWeight="1"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="20" android:layout_columnWeight="1" android:background="@color/calendar_pink"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="21" android:layout_columnWeight="1" android:background="@color/calendar_pink"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="22" android:layout_columnWeight="1" android:background="@color/calendar_pink"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="23" android:layout_columnWeight="1" android:background="@color/calendar_pink"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="24" android:layout_columnWeight="1" android:background="@color/calendar_pink"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="25" android:layout_columnWeight="1"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="26" android:layout_columnWeight="1"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="27" android:layout_columnWeight="1"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="28" android:layout_columnWeight="1"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="29" android:layout_columnWeight="1"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="30" android:layout_columnWeight="1"/>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="31" android:layout_columnWeight="1"/>
+        </GridLayout>
+
+
+
+    </LinearLayout>
+</ScrollView>
